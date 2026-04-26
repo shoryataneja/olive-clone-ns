@@ -1,6 +1,7 @@
 .hiw {
   background: #FFFFFF;
   padding: 100px 0 80px;
+  scroll-margin-top: 80px;
 }
 
 /* ---- Header ---- */
