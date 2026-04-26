@@ -18,13 +18,13 @@ The purpose of this project is to demonstrate advanced frontend development skil
 
 ## Live Demo
 
-[https://your-vercel-deployment-link.vercel.app](https://your-vercel-deployment-link.vercel.app)
+https://olive-clone-ns.vercel.app/
 
 ---
 
 ## GitHub Repository
 
-[https://github.com/shoryataneja/olive-clone-ns](https://github.com/shoryataneja/olive-clone-ns)
+https://github.com/shoryataneja/olive-clone-ns
 
 ---
 
@@ -102,17 +102,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## Environment Variables
-
-This project does not require any environment variables for local development. No `.env` file is needed.
-
-If you extend the project with backend services or API keys, create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_API_URL=<your-api-url>
-```
-
----
 
 ## Folder Structure
 
@@ -157,16 +146,6 @@ olive-clone-ns/
 
 This project is deployed on [Vercel](https://vercel.com), the recommended platform for Next.js applications.
 
-**To deploy your own instance:**
-
-1. Push the repository to GitHub
-2. Import the repository at [vercel.com/new](https://vercel.com/new)
-3. Vercel will auto-detect Next.js and configure the build settings
-4. Click Deploy — no additional configuration is required
-
-Every push to the `main` branch triggers an automatic redeployment.
-
----
 
 ## Challenges and Learnings
 
