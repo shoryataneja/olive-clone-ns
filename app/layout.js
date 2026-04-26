@@ -4,6 +4,7 @@ export const metadata = {
   metadataBase: new URL('https://oliveapp.com'),
   title: 'Olive — The Safest Way to Shop for Groceries',
   description: 'Use the Olive Food Scanner App to Instantly Eliminate Harmful Ingredients from Your Family\'s Diet.',
+  keywords: ['food scanner', 'healthy eating', 'ingredient checker', 'olive app', 'grocery scanner'],
   openGraph: {
     title: 'Olive — The Safest Way to Shop for Groceries',
     description: 'Instantly Eliminate Harmful Ingredients from Your Family\'s Diet with the Olive Food Scanner App.',
