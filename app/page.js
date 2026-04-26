@@ -11,7 +11,9 @@ export default function Home() {
           <Hero />
         </main>
       </div>
-      <HowItWorks />
+      <section id="how-it-works">
+        <HowItWorks />
+      </section>
     </div>
   );
 }
