@@ -147,7 +147,7 @@
   border: 8px solid #C8CDD6;
   border-bottom: none;
   overflow: hidden;
-  box-shadow: 0 8px 48px rgba(0,0,0,0.10);
+  box-shadow: 0 8px 48px rgba(0,0,0,0.10), 0 2px 8px rgba(0,0,0,0.06);
   width: 100%;
 }
 
