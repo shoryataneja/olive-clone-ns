@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --olive-dark: #2C3B1F;
+  --olive-green: #3D5A3D;
+  --olive-accent: #8DB600;
+  --bg-light: #E8EDE4;
+  --bg-white: #FFFFFF;
+  --text-primary: #2C3B1F;
+  --text-secondary: #6B7B6B;
+  --text-light: #9CA89C;
+  --border-color: #E8ECE8;
+  --card-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  --card-shadow-lg: 0 8px 32px rgba(0,0,0,0.08);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #FFFFFF;
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+.page-box {
+  background-color: #F0F4EC;
+  border-radius: 28px;
+  overflow: visible;
+  position: relative;
+  padding-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+button { font-family: 'DM Sans', sans-serif; cursor: pointer; border: none; outline: none; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+img { display: block; max-width: 100%; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.section { padding: 100px 0; }
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--olive-dark);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.25s ease;
+}
+.btn-primary:hover {
+  background: #1a291a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(43,58,43,0.3);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--olive-dark);
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1.5px solid var(--border-color);
+  transition: all 0.25s ease;
+}
+.btn-outline:hover {
+  border-color: var(--olive-dark);
+  background: var(--olive-dark);
+  color: #fff;
+}
+
+@media (max-width: 1024px) { .section { padding: 72px 0; } }
+@media (max-width: 768px) { .section { padding: 56px 0; } .container { padding: 0 20px; } }
