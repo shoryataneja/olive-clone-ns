@@ -89,3 +89,4 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 1024px) { .section { padding: 72px 0; } }
 @media (max-width: 768px) { .section { padding: 56px 0; } .container { padding: 0 20px; } }
+@media (max-width: 480px) { .section { padding: 40px 0; } .container { padding: 0 16px; } body { padding: 12px; } .page-box { border-radius: 18px; } }
